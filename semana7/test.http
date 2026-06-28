@@ -1,0 +1,20 @@
+post http://localhost:3000/reportes
+Content-Type: application/json
+
+{ 
+  "tipo": "Señalización vial", 
+  "descripcion": "Una señal de tránsito está caída y representa un riesgo para los conductores." 
+
+}
+
+### reporte get
+get http://localhost:3000/reportes
+
+### otro reporte POST 
+post http://localhost:3000/reportes
+Content-Type: application/json
+
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos en una zona comunitaria"
+}

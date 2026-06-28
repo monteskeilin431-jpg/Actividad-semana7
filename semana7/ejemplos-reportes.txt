@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 229
+ETag: W/"e5-PiCVz6fipbKQnU6I5Q8Cf6ga4ig"
+Date: Sun, 28 Jun 2026 06:21:17 GMT
+Connection: close
+
+[
+  {
+    "id": 1,
+    "tipo": "Señalización vial",
+    "descripcion": "Una señal de tránsito está caída y representa un riesgo para los conductores."
+  },
+  {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+]

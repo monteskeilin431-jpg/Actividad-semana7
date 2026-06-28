@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 178
+ETag: W/"b2-wS8usuYWSjq5XcZwoqfHPvcosvo"
+Date: Sun, 28 Jun 2026 06:03:28 GMT
+Connection: close
+
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Señalización vial",
+    "descripcion": "Una señal de tránsito está caída y representa un riesgo para los conductores."
+  }
+}
